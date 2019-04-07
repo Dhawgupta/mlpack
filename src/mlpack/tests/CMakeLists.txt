@@ -147,7 +147,7 @@ add_executable(mlpack_test
   main_tests/hmm_test_utils.hpp
   main_tests/kernel_pca_test.cpp
   main_tests/range_search_test.cpp
-)
+        mytest/dhawal1.cpp mytest/dhawal1.h)
 
 # Link dependencies of test executable.
 target_link_libraries(mlpack_test
